@@ -4,6 +4,14 @@ import {View, Button, Text} from 'react-native';
 
 //TELA DE DETALHES
 export default class DetailsScreen extends Component {
+    static navigationOptions = {
+      drawerLabel: 'Details',
+      title: 'Details',
+      headerStyle: {
+        backgroundColor: 'green'
+      }
+    }
+
     render() {
       return(
         <View style={{flex: 1, justifyContent: 'center'}}>

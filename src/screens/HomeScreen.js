@@ -6,6 +6,7 @@ import {View, Button, Text} from 'react-native';
 //TELA HOME
 export default class HomeScreen extends Component {
     static navigationOptions = {
+      drawerLabel: 'Home',
       title: 'Home',
       headerStyle: {
         backgroundColor: 'purple'
@@ -30,3 +31,4 @@ export default class HomeScreen extends Component {
       );
     }
   }
+  

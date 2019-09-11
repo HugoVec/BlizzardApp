@@ -1,11 +1,12 @@
 
 import React, {Component} from 'react';
-import {View, Button, Text} from 'react-native';
+import {View, Button, Text, Image} from 'react-native';
 
 //TELA DE PROFILE
 export default class ProfileScreen extends Component {
     static navigationOptions = {
-      title: 'Perfil',
+      drawerLabel: 'Profile',
+      title: 'Profile',
       headerStyle: {
         backgroundColor: 'blue'
       },
@@ -22,6 +23,11 @@ export default class ProfileScreen extends Component {
   
       return (
         <View style={{flex: 1, justifyContent: 'center'}}>
+
+          <View style={{margin: 20}}>
+            <Image source={require('../assets/wereboar.png')}/>
+          </View>
+
           <View style={{alignItems: 'center'}}>
             <Text style={{fontSize: 50}}>Tela de Profile! :D</Text>
             <Text style={{fontSize: 50}}>Nome: {JSON.stringify(name)}</Text>

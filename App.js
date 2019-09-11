@@ -10,8 +10,8 @@ import React, {Fragment, Component} from 'react';
 
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
-import {HomeScreen, ProfileScreen, DetailsScreen} from './src/screens';
-
+import { HomeScreen, ProfileScreen, DetailsScreen } from './src/screens';
+import { createDrawerNavigator } from 'react-navigation-drawer';
 
 //Definir as Rotas, Criar as telas, Nas telas criar os botoes
 //Na Propriedade OnPress defina a rota que ele vai
@@ -38,13 +38,23 @@ const AppNavigator = createStackNavigator(
   }
 );
 
-const AppContainer = createAppContainer(AppNavigator);
+const AppContainer = createAppContainer(AppNavigator, MyDrawer);
 
 export default class App extends Component{
   render() {
     return <AppContainer/>;
   }
 }
+
+const MyDrawer = createDrawerNavigator (
+  {
+    Home: HomeScreen,
+    Profile: ProfileScreen,
+    Details: DetailsScreen
+  }
+)
+
+//export default createAppContainer(MyDrawer);
 
 
 /** 

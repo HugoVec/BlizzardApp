@@ -11,7 +11,9 @@
     "react": "16.8.6",
     "react-native": "0.60.5",
     "react-native-gesture-handler": "^1.4.1",
+    "react-native-reanimated": "^1.2.0",
     "react-navigation": "^4.0.0",
+    "react-navigation-drawer": "^2.1.0",
     "react-navigation-stack": "^1.5.1"
   },
   "devDependencies": {
@@ -22,6 +24,7 @@
     "eslint": "6.3.0",
     "jest": "24.9.0",
     "metro-react-native-babel-preset": "0.54.1",
+    "path": "^0.12.7",
     "react-test-renderer": "16.8.6"
   },
   "jest": {

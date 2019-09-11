@@ -1,6 +1,6 @@
-import HomeScreen from './src/screens/HomeScreen';
-import ProfileScreen from './src/screens/ProfileScreen';
-import DetailsScreen from './src/screens/DetailsScreen';
+import HomeScreen from './HomeScreen.js';
+import ProfileScreen from './ProfileScreen.js';
+import DetailsScreen from './DetailsScreen.js';
 
 export {HomeScreen, ProfileScreen, DetailsScreen};
 
