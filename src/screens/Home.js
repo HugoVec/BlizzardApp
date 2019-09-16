@@ -4,7 +4,7 @@ import {View, Button, Text} from 'react-native';
 
 
 //TELA HOME
-export default class HomeScreen extends Component {
+export default class Home extends Component {
     static navigationOptions = {
       drawerLabel: 'Home',
       title: 'Home',
@@ -21,10 +21,7 @@ export default class HomeScreen extends Component {
           </View>
   
           <View style={{margin: 20}}>
-            <Button 
-              title = 'Ir pra Perfil'
-              onPress = { () => this.props.navigation.navigate('Profile', {name: 'Hugo', age: 20}) }
-            />
+            <Text>HOME</Text>
           </View>
   
         </View>
