@@ -26,8 +26,9 @@ export default class Home extends Component {
           
           <View style={{flexDirection: "row", justifyContent: 'center'}}>
               <Text style={style.texto}>
+
                 Uma corrida se inicia em WaterDeep onde nossos aventureiros recebem uma marca misteriosa nas costas de suas mãos que se 
-                assemelha a uma bussola
+                assemelha a uma bussola, que ira guialos para a oportunidade de receber um desejo sem limites...
 
 
               

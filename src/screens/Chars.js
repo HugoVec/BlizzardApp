@@ -40,7 +40,6 @@ export default class Char extends Component {
                         <Image style={{marginHorizontal:10, width:100, height:150}} source = {require('../assets/tigre3.jpg')} />
                     </TouchableHighlight>
                 </View>
-
             </View>
         );
     }  
