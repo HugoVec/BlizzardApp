@@ -5,7 +5,7 @@ export default class Eru extends Component {
     render(){
         return(
             <View>
-                <Text>eru</Text>
+                <Text>Eru</Text>
             </View>
         );
     }

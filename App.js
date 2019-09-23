@@ -4,7 +4,7 @@ import React, { Component } from 'react'; //Components
 import { createAppContainer } from 'react-navigation'; //Navegação
 import { createStackNavigator } from 'react-navigation-stack'; //Navegação
 import { createDrawerNavigator } from 'react-navigation-drawer'; //Drawer
-import { Home, Map, NPCs, Char, Eru } from './src/screens'; //Telas
+import { Home, Map, NPCs, Char, Eru, Balvor, Ignirus, Akmenos, Nylldun, Kronam } from './src/screens'; //Telas
 
 //Rotas do DraweMenu
 
@@ -29,6 +29,21 @@ const AppStackNavigator = createStackNavigator(
     },
     Eru: {
       screen: Eru
+    },
+    Balvor: {
+      screen: Balvor
+    },
+    Ignirus: {
+      screen: Ignirus
+    },
+    Akmenos: {
+      screen: Akmenos
+    },
+    Nylldun: {
+      screen: Nylldun
+    },
+    Kronam: {
+      screen: Kronam
     }
   }
 );
